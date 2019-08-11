@@ -1,2 +1,7 @@
-IPAs can lead to Double IPAs
-Delete or hide this
+source "https://rubygems.org"
+gem "rspec"
+gem "sinatra"
+
+group :development do
+gem "pry"
+end
